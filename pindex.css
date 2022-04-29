@@ -6,10 +6,19 @@ header {
 }
 
 nav {
+    float: left;
     background-color:beige;
-    padding: 1em;
+    padding: 3em;
+    float: left;
+    display: block;
     grid-area: nav;
+    
 
+}
+li{
+    float:left;
+    width: 27em;
+    display: block;
 }
 
 main {
