@@ -6,12 +6,14 @@ header {
 }
 
 nav {
-    background-color:red
+    background-color:beige;
+    padding: 1em;
     grid-area: nav;
+
 }
 
 main {
-    background-color: red;
+    background-color: black;
     color: white;
     grid-area: main;
 }
@@ -30,6 +32,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: "header header header "
                          "nav nav nav"
-                         "main main footer"    
+                         "main main main"
+                         "footer footer footer"    
 
 }
