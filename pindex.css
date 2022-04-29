@@ -8,17 +8,19 @@ header {
 nav {
     float: left;
     background-color:beige;
-    padding: 3em;
     float: left;
-    display: block;
+    display: inline;
     grid-area: nav;
     
 
 }
 li{
+    background-color: rgb(250, 0, 50);
     float:left;
-    width: 27em;
-    display: block;
+    display: inline;
+    margin-right: 22.5em;
+    padding: 1em;
+    
 }
 
 main {
