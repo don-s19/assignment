@@ -10,7 +10,7 @@ nav {
     float: left;
     background-color:beige;
     float: left;
-    display: inline;
+    display: block;
     grid-area: nav;
     
 
