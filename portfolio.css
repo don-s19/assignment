@@ -35,7 +35,9 @@ footer {
     grid-area: footer;
 }
 
-
+aside{
+    background-color: orange;
+}
 
 body{
     display: grid;
@@ -44,7 +46,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: "header header header "
                          "nav nav nav"
-                         "main main main"
-                         "footer footer footer"    
+                         "main main aside"
+                         "footer footer aside"    
 
 }
